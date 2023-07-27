@@ -17,6 +17,7 @@ const CartPage = () => {
 	}, []);
 
 	if (!isMounted) return null;
+
 	return (
 		<div className='bg-white'>
 			<Container>
